@@ -9,7 +9,7 @@ $(function(){
 		$.ajax({
 		
 			type : 'get',
-			url:'loadState.cfc?method=state_load',
+			url:'loadState.cfc?method=state_load',  // here state_load is a function
 			data : { 'countryId':value }	// value passed as argument to CFC Function.
 			
 		}).success(function(response){
