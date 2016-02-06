@@ -42,7 +42,8 @@
 				<option value="#id#">#state#</option>
 			</cfloop>
 		</select>
-	</cfoutput>	
+	</cfoutput>
+	<cfabort>
 	</cffunction>
 	
 </cfcomponent>
