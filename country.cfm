@@ -10,7 +10,7 @@
 	<cfquery name="qCountry" datasource="datasource">
 		DECLARE @MyTableVar table(
 	   		id int,
-	    	country varchar(100)
+	    	country varchar(200)
 		);
 
 		INSERT INTO @MyTableVar VALUES (1,'INDIA');
