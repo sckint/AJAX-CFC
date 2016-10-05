@@ -15,6 +15,7 @@
 		INSERT INTO @MyCountry VALUES (1,'INDIA');
 		INSERT INTO @MyCountry VALUES (2,'RUSSIA');
 		INSERT INTO @MyCountry VALUES (3,'USA');
+		INSERT INTO @MyCountry VALUES (4,'Canada');
 
 		DECLARE @MyStates table(
 	   		id int,
